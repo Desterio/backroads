@@ -1,6 +1,6 @@
 import React from "react"
 
-import styles from '../css/banner.module.css'
+import styles from "../css/banner.module.css"
 
 const Banner = ({ title, info, children }) => {
   return (
@@ -10,6 +10,6 @@ const Banner = ({ title, info, children }) => {
       {children}
     </div>
   )
-};
+}
 
 export default Banner
