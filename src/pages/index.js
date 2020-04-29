@@ -7,6 +7,7 @@ import Banner from "../components/Banner"
 import About from "../components/home/About"
 import Services from "../components/home/Services"
 import StyledHero from "../components/StyledHero"
+import FeaturedTours from "../components/home/FeaturedTours"
 
 
 const index = ({data}) => {
@@ -20,6 +21,7 @@ const index = ({data}) => {
       </StyledHero>
       <About/>
       <Services/>
+      <FeaturedTours />
     </Layout>
   )
 }
